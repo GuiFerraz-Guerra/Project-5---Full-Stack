@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    border-bottom: 2px solid #e0e0e0;
+    color: #ffffff;
+}
+
+.event-details {
+    color: #333333;
+    padding: 20px 0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.event-details h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.form-section {
+    padding: 20px 0;
+}
+
+.form-section h2 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form input,
+.form select {
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-color: #fdfdfd;
+}
+
+.form input:focus,
+.form select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+.form button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 1em;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.checkbox {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.checkbox input {
+    margin-right: 8px;
+}
+
+.checkbox a {
+    color: #007BFF;
+    text-decoration: underline;
+}
+

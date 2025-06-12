@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite para Evento</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <h1>Você está convidado!</h1>
+        <p>Participe do nosso evento exclusivo</p>
+    </header>
+
+    <section class="event-details">
+        <h2>Detalhes do Evento</h2>
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M3.5 0a.5.5 0 0 0 0 1H4v1a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V1h.5a.5.5 0 0 0 0-1h-1A1.5 1.5 0 0 0 10.5 1v1h-5V1A1.5 1.5 0 0 0 4 0h-1z"/>
+                <path d="M1 5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V5zm2-1a1 1 0 0 0-1 1v.5h12V5a1 1 0 0 0-1-1H3z"/>
+            </svg>
+            <strong> Data:</strong> 25 de Junho de 2025
+        </p>
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 1 .5.5v4h3a.5.5 0 0 1 0 1H8a.5.5 0 0 1-.5-.5V4a.5.5 0 0 1 .5-.5z"/>
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm0-1A7 7 0 1 1 8 1a7 7 0 0 1 0 14z"/>
+            </svg>
+            <strong> Horário:</strong> 19h às 22h
+        </p>
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M4.146 14.354a.5.5 0 0 1-.353-.854L8 9.293l4.207 4.207a.5.5 0 1 1-.707.707L8 10.707l-3.793 3.647a.5.5 0 0 1-.353.146z"/>
+                <path d="M8 1a7 7 0 1 0 7 7A7.007 7.007 0 0 0 8 1zM2 8a6 6 0 1 1 6 6 6.007 6.007 0 0 1-6-6z"/>
+            </svg>
+            <strong> Local:</strong> Rua Voluntário Gabriel, 33, Jacareí-SP
+        </p>
+    </section>
+
+    <section class="form-section">
+        <h2>Confirme sua Presença</h2>
+        <form action="#" method="post" class="form">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="genero">Gênero</label>
+            <select id="genero" name="genero">
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="nao-responder">Prefiro não responder</option>
+            </select>
+
+            <div class="checkbox">
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos">Li e aceito os <a href="#">termos e condições</a>.</label>
+            </div>
+
+            <button type="submit">Enviar Inscrição</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Evento Exemplo. Todos os direitos reservados.</p>
+    </footer>
+</div>
+</body>
+</html>
